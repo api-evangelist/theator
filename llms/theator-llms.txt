@@ -1,0 +1,27 @@
+# Theator
+
+> Theator is a surgical intelligence platform that turns minimally invasive surgical video into structured, actionable intelligence for surgeons, hospital executives, and revenue-cycle teams. It processes operative video into procedural insights, outcomes data, and surgery-to-text documentation. Theator is a healthcare technology company backed by Insight Partners. No public developer API, SDK, or documentation surface has been identified as of this profile.
+
+## Company
+- [Website](https://theator.io/): Theator surgical intelligence platform home
+- [About](https://theator.io/about): Company overview
+- [Platform](https://theator.io/platform): Product platform
+- [Evidence](https://theator.io/Evidence): Clinical evidence
+- [Publications](https://theator.io/publications): Peer-reviewed publications
+- [Newsroom](https://theator.io/newsroom): Press coverage
+
+## For
+- [For Surgeons](https://theator.io/for-surgeons)
+- [For Executives](https://theator.io/for-executives)
+- [For Revenue Cycle](https://theator.io/for-revenue-cycle)
+
+## Trust & Legal
+- [Trust Center](https://trust.theator.io/): SOC 2, ISO 27001, HIPAA, GDPR posture
+- [Responsible Disclosure](https://theator.io/security/responsible-disclosure): Vulnerability disclosure
+- [Privacy Policy](https://theator.io/privacy-policy)
+- [Terms of Use](https://theator.io/terms-of-use)
+
+## Contact
+- [Request Demo](https://theator.io/request-demo)
+- [Contact](https://theator.io/contact)
+- [Careers](https://theator.io/careers)
