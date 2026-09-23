@@ -2,22 +2,27 @@ generated: '2026-07-21'
 method: searched
 source: live probes of https://theator.io/.well-known/*
 host: https://theator.io
-note: >-
-  theator.io is served on the Base44 hosted application platform; the OpenID
-  Connect / OAuth authorization-server discovery documents returned at these
-  paths describe the Base44 platform identity provider (issuer
-  https://app.base44.com), not a first-party Theator API. Captured verbatim
-  because they are genuinely served on the theator.io host.
-documents:
-- path: /.well-known/openid-configuration
-  status: 200
-  file: theator-openid-configuration.json
-- path: /.well-known/oauth-authorization-server
-  status: 200
-  file: theator-oauth-authorization-server.json
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
+note: theator.io is served on the Base44 hosted application platform; the OpenID Connect / OAuth authorization-server
+  discovery documents returned at these paths describe the Base44 platform identity provider (issuer https://app.base44.com),
+  not a first-party Theator API. Captured verbatim because they are genuinely served on the theator.io
+  host.
+hosts:
+- host: https://theator.io
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: theator-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: theator-oauth-authorization-server.json
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
